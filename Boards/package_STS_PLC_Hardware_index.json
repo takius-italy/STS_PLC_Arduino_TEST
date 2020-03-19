@@ -1,0 +1,30 @@
+{
+  "packages": [
+    {
+      "name": "Takius STS PLC",
+      "maintainer": "Takius Development Team",
+      "websiteURL": "https://github.com/takius-italy/STS_PLC_Arduino_TEST",
+      "email": "",
+      "help": {
+        "online": "http://www.takius.it/sts_plc"
+      },
+      "platforms": [
+        {
+          "name": "Takius STS PLC",
+          "architecture": "stm32",
+          "version": "0.1.0",
+          "category": "Contributed",
+          "url": "https://MCUdude.github.io/MiniCore/MiniCore-1.0.0.tar.gz",
+          "archiveFileName": "MiniCore-1.0.0.tar.gz",
+          "checksum": "SHA-256:a3c5f9f496004bddb5969a473f155ef845178e92a79dc47392ea6356cfb6ba4b",
+          "size": "86612",
+          "boards": [
+            {"name": "STS PLC Eve"}
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
